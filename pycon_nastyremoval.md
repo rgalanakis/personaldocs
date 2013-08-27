@@ -1,3 +1,6 @@
+# Name
+TBD
+
 # Category
 Best Practices & Patterns 
 
@@ -19,8 +22,17 @@ In the days of Python 1.5, programmers at CCP working on the MMORPG EVE Online d
 # Abstract
 It is rare for a clever technical solution to be applicable a decade later. Unfortunately it is also quite common that these "jewels" become entrenched and unremovable, leading to suffering for the people maintaining the code. This is  
 
+# Detailed Description
+In the days of Python 1.5, programmers at CCP working on the MMORPG EVE Online decided to implement a very clever  Python import mechanism, appropriately named "Nasty". This very clever importer freed them from the shackles of namespaces being tied to file location, and allowed them to do all sorts of very clever things.
+
+Over the course of the next decade, this very clever importer turned into a very big problem. A single namespace was split between dozens of files. Modules and files were not cohesive. Features like a test runner and mocking were added directly into the importer. Circular references abounded. Developers new to the codebase turned edge cases into best practices. Many once useful features turned into a dreadful maintenance burden.
+
+But the programmers of CCP would not allow EVE Online to go the route of legacy software and fade into obscurity. In the face of overwhelming adversity, some programmers formed a plan to kill Nasty and replace it with a system named Nice. They decided to fight great cleverness with even greater cleverness. They conspired in secret, away from the eyes of The Producers. In the meantime they created ways to avoid feeding Nasty even more innocent souls. 
+
+Finally, nearly two years after Nice was conceived, the attack was launched in an all out two week flurry of refactoring. How did they adventure end? You will have to watch to find out. We hope our experiences will inspire you in your own fight against legacy code.
+
 # Outline
-I actually just plan on correlating the presentation to the Star Wars Skywalker plot line, so I'll include the analog for each step. I feel it works on many levels, including Nice as the Luke to Nasty as Anakin, but more importantly as the next generation of developers like Rob taking the torch from the old guard like Kristjan. And also the old guard ascending to misunderstood deity.
+I actually plan on correlating the presentation to the Star Wars Skywalker plot line, so I'll include the analog for each step. I feel it works on many levels, including Nice as the Luke to Nasty as Anakin, but more importantly as the next generation of developers like Rob taking the torch from the old guard like Kristjan. And also the old guard ascending to misunderstood deity and immortality.
 
 10. Intro: Kristjan and Rob go over Nasty's background info, based on detailed description.
     10. 5 minutes
@@ -29,19 +41,19 @@ I actually just plan on correlating the presentation to the Star Wars Skywalker 
     10. 3 minutes
     20. Star Wars: Anakin fighting for justice, glory, destiny, love. Conviction!
 30. Kristjan explains how Nasty works technically.
-    10. 5 minutes
+    10. 3 minutes
     20. Star Wars: Kristjan is a Jedi.
 40. Kristjan explains what happens to programmers after a successful startup product.
     10. 2 minutes
     20. Star Wars: Anakin's fall from grace, formation of the Empire.
 50. Rob and Kristjan describe what happened to Nasty, with examples of the types of things that were added and what it was used for.
-    10. 3 minutes
+    10. 4 minutes
     20. Star Wars: Continued corruption of the Empire, war on Rebels.
 60. Rob introduces Nice, Nasty's replacement.
     10. 2 minutes
     20. Star Wars: Like finding the plans to the Death Star.
 70. Rob explains the cultural and technical hurdles to removing Nasty.
-    10. 2 minutes
+    10. 3 minutes
     15. Nice was actually devised in Autumn 2011, nearly two years before Nasty was actually removed.
     20. Star Wars: Assembling the fleet to attack the Death Star.
 80. Rob explains how it was done
