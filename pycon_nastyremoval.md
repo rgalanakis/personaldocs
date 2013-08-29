@@ -22,14 +22,14 @@ Attendees will have gotten some real-world insight on when reinventing the wheel
 No preference
 
 # Description
-In the days of Python 1.5, programmers at CCP working on the MMORPG **EVE Online** decided to implement a custom Python import mechanism, appropriately named "Nasty". Over the course of the next decade, they found this to be a very bad idea. The story of the creation and destruction of Nasty is one of success, fall, and redemption. It will hopefully inspire you in your own fight against legacy code.
+In the days of Python 1.5, programmers at CCP working on the MMORPG EVE Online decided to implement a custom Python import mechanism, appropriately named "Nasty". Over the course of the next decade, they found this to be a very bad idea. The story of the creation and destruction of Nasty is one of success, fall, and redemption. It will hopefully inspire you in your own fight against legacy code.
 
 # Detailed Abstract
-In the days of Python 1.5, programmers at CCP working on the MMORPG **EVE Online** decided to implement a very clever  Python import mechanism, appropriately named "Nasty". This very clever importer freed them from the shackles of namespaces being tied to file location, and allowed them to do all sorts of very clever things.
+In the days of Python 1.5, programmers at CCP working on the MMORPG EVE Online decided to implement a very clever  Python import mechanism, appropriately named "Nasty". This very clever importer freed them from the shackles of namespaces being tied to file location, and allowed them to do all sorts of very clever things.
 
 Over the course of the next decade, this very clever importer turned into a very big problem. A single namespace could be split between dozens of files. Modules and files were not cohesive. Features like a test runner and mocking were added directly into the importer. Circular references abounded. Developers new to the codebase turned edge case behavior into best practices. Many once useful features turned into a dreadful maintenance burden.
 
-But the programmers of CCP would not allow **EVE** to go the route of legacy software and fade into obscurity. In the face of overwhelming adversity, some programmers formed a plan to kill Nasty and replace it with a system named Nice. They decided to fight great cleverness with even greater cleverness. They conspired in secret, away from the eyes of The Producers. In the meantime they created ways to avoid feeding Nasty even more innocent souls. 
+But the programmers of CCP would not allow EVE to go the route of legacy software and fade into obscurity. In the face of overwhelming adversity, some programmers formed a plan to kill Nasty and replace it with a system named Nice. They decided to fight great cleverness with even greater cleverness. They conspired in secret, away from the eyes of The Producers. In the meantime they created ways to avoid feeding Nasty even more innocent souls. 
 
 Finally, nearly two years after Nice was conceived, the attack was launched in an all out two week flurry of refactoring. How did they adventure end? You will have to watch to find out. We hope our experiences will inspire you in your own fight against legacy code.
 
