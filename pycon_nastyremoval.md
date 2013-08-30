@@ -1,30 +1,25 @@
-# Name
+### Name
 TBD
 
-# Category
+### Category
 Best Practices & Patterns 
 
-# Python Level
+### Python Level
 Novice 
 
-# Audience
-Which of these sound good?
+### Audience
+Novices who want their jobs to get better, veterans who want them to not get worse.
 
-- Veteran programmers who want to make things better, junior programmers who want to avoid making things worse. 
-- Junior programmers who want to make things better, veteran programmers who want to avoid making things worse.
-- Programmers who live with regret and those who have not yet made big enough mistakes.
-- Programmers who can live with their decisions and forgive the mistakes of others.
+### Objectives
+Attendees will get real world insight on when reinventing the wheel is appropriate, and how to address cultural and technical problems when such a solution becomes unmanageable legacy. They will come away energized enough to fight against legacy code, and informed enough to win.
 
-# Objectives
-Attendees will have gotten some real-world insight on when reinventing the wheel is appropriate, and how to address cultural and technical problems when such a solution becomes inappropriate. The technical aspects of Nasty and its removal will be covered as well.
+### Duration
+30 minutes
 
-# Duration
-No preference
+### Description
+In the days of Python 1.5, programmers at CCP working on EVE Online decided to implement a custom Python import mechanism, appropriately named "Nasty". Over the course of the next decade, they found this to be a very bad idea. The story of the creation and destruction of Nasty is one of success, fall, and redemption. It will hopefully inspire you in your own fight against legacy code.
 
-# Description
-In the days of Python 1.5, programmers at CCP working on the MMORPG EVE Online decided to implement a custom Python import mechanism, appropriately named "Nasty". Over the course of the next decade, they found this to be a very bad idea. The story of the creation and destruction of Nasty is one of success, fall, and redemption. It will hopefully inspire you in your own fight against legacy code.
-
-# Detailed Abstract
+### Detailed Abstract
 In the days of Python 1.5, programmers at CCP working on the MMORPG EVE Online decided to implement a very clever  Python import mechanism, appropriately named "Nasty". This very clever importer freed them from the shackles of namespaces being tied to file location, and allowed them to do all sorts of very clever things.
 
 Over the course of the next decade, this very clever importer turned into a very big problem. A single namespace could be split between dozens of files. Modules and files were not cohesive. Features like a test runner and mocking were added directly into the importer. Circular references abounded. Developers new to the codebase turned edge case behavior into best practices. Many once useful features turned into a dreadful maintenance burden.
@@ -33,7 +28,7 @@ But the programmers of CCP would not allow EVE to go the route of legacy softwar
 
 Finally, nearly two years after Nice was conceived, the attack was launched in an all out two week flurry of refactoring. How did they adventure end? You will have to watch to find out. We hope our experiences will inspire you in your own fight against legacy code.
 
-# Outline
+### Outline
 I actually plan on correlating the presentation to the Star Wars Skywalker plot line, so I'll include the analog for each step. I feel it works on many levels, including Nice as the Luke to Nasty as Anakin, but more importantly as the next generation of developers like Rob taking the torch from the old guard like Kristjan. And also the old guard ascending to misunderstood deity and immortality.
 
 10. Intro: Kristjan and Rob go over Nasty's background info, based on detailed description.
@@ -68,8 +63,6 @@ I actually plan on correlating the presentation to the Star Wars Skywalker plot 
     10. 2 minutes
     20. Star Wars: 
 
-# More info 
-
-# Notes
+### Notes
 I've spoken at Game Developers Conference and in more local and work groups many times. Unfortunately GDC is not a non-profit so access to their "vault" of recordings requires a subscription. 
 
