@@ -1,5 +1,5 @@
 ### Name
-TBD
+A New Hope: How EVE Online is Winning Against Ten Years of Technical Debt
 
 ### Category
 Best Practices & Patterns 
@@ -8,10 +8,10 @@ Best Practices & Patterns
 Novice 
 
 ### Audience
-Novices who want their jobs to get better, veterans who want them to not get worse.
+Novices who want their codebase to get better, veterans who want their codebase to not get worse.
 
 ### Objectives
-Attendees will get real world insight on when reinventing the wheel is appropriate, and how to address cultural and technical problems when such a solution becomes unmanageable legacy. They will come away energized enough to fight against legacy code, and informed enough to win.
+Attendees will get real world insight on how today's great idea becomes tomorrow's tragedy, and how to address cultural and technical problems when it comes time to make things right. They will come away energized enough to fight against legacy code, and informed enough to win.
 
 ### Duration
 30 minutes
@@ -22,7 +22,7 @@ In the days of Python 1.5, programmers at CCP working on EVE Online decided to i
 ### Detailed Abstract
 In the days of Python 1.5, programmers at CCP working on the MMORPG EVE Online decided to implement a very clever  Python import mechanism, appropriately named "Nasty". This very clever importer freed them from the shackles of namespaces being tied to file location, and allowed them to do all sorts of very clever things.
 
-Over the course of the next decade, this very clever importer turned into a very big problem. A single namespace could be split between dozens of files. Modules and files were not cohesive. Features like a test runner and mocking were added directly into the importer. Circular references abounded. Developers new to the codebase turned edge case behavior into best practices. Many once useful features turned into a dreadful maintenance burden.
+Over the course of the next decade, this very clever importer turned into a very big problem. A single namespace could be split between dozens of files. Modules and files were not cohesive. Features like a test runner and mocking were added directly into the importer. Circular references abounded. Developers new to the codebase perverted edge case behavior into best practices. Many once useful features turned into a dreadful maintenance burden.
 
 But the programmers of CCP would not allow EVE to go the route of legacy software and fade into obscurity. In the face of overwhelming adversity, some programmers formed a plan to kill Nasty and replace it with a system named Nice. They decided to fight great cleverness with even greater cleverness. They conspired in secret, away from the eyes of The Producers. In the meantime they created ways to avoid feeding Nasty even more innocent souls. 
 
