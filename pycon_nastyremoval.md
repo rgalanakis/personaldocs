@@ -36,7 +36,7 @@ I actually plan on correlating the presentation to the Star Wars Skywalker plot 
     20. Introduce the Star Wars motif.
 20. Kristjan explains the circumstances under which Nasty was developed and the early days of CCP. Explain what Python was like in the early days, what it's like working in a startup, the ideas behind Nasty, and why building Nasty was important.
     10. 3 minutes
-    20. Star Wars: Anakin fighting for justice, glory, destiny, love. Conviction!
+    20. Star Wars: Anakin fighting for justice, glory, destiny, love. He has conviction!
 30. Kristjan explains how Nasty works technically.
     10. 3 minutes
     20. Star Wars: Kristjan is a Jedi.
@@ -47,21 +47,24 @@ I actually plan on correlating the presentation to the Star Wars Skywalker plot 
     10. 4 minutes
     20. Star Wars: Continued corruption of the Empire, war on Rebels.
     30. Include a discussion of unit testing during importing, mocking, type registries, circular references, type-creation-on-export.
+    40. This is a good opportunity for a number of WTFs and laughs (mocking and thinclients, unit testing, circular references, split up namespaces, namespace-as-registry, reloading, it's almost endless).
 60. Rob introduces Nice, Nasty's replacement. He explains how it is supposed to remove the need for Nasty.
     10. 2 minutes
     20. Star Wars: Like finding the plans to the Death Star. Including the spies who died in the layoffs...
+    30. Explain Nice in very general terms. The specifics of the implementation are not nearly as interesting as its cleverness. The cleverness itself is even clever- once Nice is implemented, the it gets less and less clever because we don't add anything to the "nastyspace" files.
 70. Rob explains the cultural and technical hurdles to removing Nasty.
     10. 4 minutes
     20. Star Wars: Assembling the fleet to attack the Death Star.
     30. Nice was actually devised in Autumn 2011, nearly two years before Nasty was actually removed. A fundamental and backwards-incompatible change to live, frequently-released software is very risky. The company didn't know how to balance features and technical projects. "Software engineers" were moved off of EVE, only leaving "game programmers." Engineers weren't empowered.
+    40. While the plan was being formed, we also went ahead and started writing "non-Nasty" code using plain vanilla importing mechanisms. This was a bit of an outside concept for an organization that had only ever written non-Nasty code. Once it took hold, though, it rapidly caught on.
 80. Rob explains how removing Nasty was done.
     10. 3 minutes
     20. Star Wars: Attack on the Death Star.
-    30. Lots of luck. More due to working with incredible people. But still lots of luck. Required a good deal of steaming time (all of 2012), preparation (Jan-March 2013), assembling our forces (March-June 2013), announcing intent, and directly after that pulling the trigger by putting about 6 people in a room until it was more-or-less done.
+    30. Lots of luck. More due to working with incredible people. But still lots of luck. Required a good deal of steaming time (all of 2012), preparation (Jan-March 2013), assembling our forces (March-June 2013), announcing intent, and directly after that pulling the trigger by putting about 6 people in a room until it was more-or-less done (two weeks).
 90. Rob explains what happened after it was done.
     10. 2 minutes
     20. Star Wars: There was no second Death Star!
-    30. There was little huge fallout. Summer period is slow, and there were lots of issues, but ultimately didn't cause major problems.
+    30. There was little huge fallout. Summer period is slow, and there were a number of relatively small issues, but ultimately didn't cause major problems.
 100. Wrap up: Rob and Kristjan reiterate the themes and lessons learned. Ensure the themes are driven home, especially by connecting to the Star Wars motif.
     10. 2 minutes
     20. Star Wars: That scene from the end where the old Jedi are ghosts.
